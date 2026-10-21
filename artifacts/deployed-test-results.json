@@ -1,0 +1,28 @@
+{
+  "target": "deployed",
+  "httpStatus": 200,
+  "geometry": "ExtrudeGeometry",
+  "depth": 0.5,
+  "holes": 1,
+  "triangles": 9808,
+  "checks": [
+    "auto-rotation",
+    "pause/resume",
+    "mouse-orbit",
+    "reset",
+    "SVG download HTTP 200",
+    "reduced-motion initial + dynamic",
+    "keyboard",
+    "mobile layout",
+    "emulated touch orbit",
+    "WebGL fallback"
+  ],
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x104000cc000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104000cc000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104000cc000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x104000cc000]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "environment": "Playwright chrome headless, SwiftShader; emulated mobile/touch (not physical device)"
+}

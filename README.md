@@ -1,5 +1,7 @@
 # Nostr — Relay Signal in 3D
 
+[Open the live page](https://kojira.github.io/nostr-relay-signal-3d/).
+
 An independent logo experiment: a violet N with a lightning-shaped through-cut, physically extruded and bevelled in Three.js. The three relay nodes and orbit are real 3D geometry too. This is not an official Nostr identity.
 
 Drag or swipe to orbit, scroll to zoom, pause/resume automatic rotation, or reset the view. With the canvas focused, use arrow keys to rotate and +/− to zoom. Reduced-motion preferences start the scene paused and are tracked when changed. The original SVG is downloadable; browsers without WebGL receive an SVG fallback.

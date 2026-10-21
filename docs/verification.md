@@ -11,4 +11,4 @@
 No physical phone, Safari, Firefox, screen reader, or hardware-GPU performance test was performed. Touch and mobile results are Chromium emulation, not device testing. The forced WebGL-unavailable test intentionally causes Three.js context-creation errors; that separate page is not counted as an error-free WebGL run. No full accessibility audit is claimed.
 
 ## Deployment
-Pending deployment verification. See the committed result JSON and screenshots for actual browser observations; a successful build alone is not deployment evidence.
+GitHub Pages reported `built`; https://kojira.github.io/nostr-relay-signal-3d/ returned HTTP 200. The same complete browser checks passed against that public URL, including WebGL rendering, mouse/touch interaction and SVG download. WebGL-enabled runs had zero console errors and zero page errors; SwiftShader performance warnings remain as noted above. See `artifacts/deployed-test-results.json`, `artifacts/deployed-desktop.png`, and `artifacts/deployed-mobile.png`.
