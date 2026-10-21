@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.pnpm-store/
+
+artifacts/supply-chain-probe/
+artifacts/*
+!artifacts/*.png
+!artifacts/*-test-results.json
