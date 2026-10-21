@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Nostr — relay signal</title>
+  <desc id="desc">An original Nostr logo concept: a sharp violet N with a lightning-shaped diagonal, surrounded by a three-node relay orbit on a dark background.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%"><stop stop-color="#21103c"/><stop offset="1" stop-color="#080a12"/></radialGradient>
+    <linearGradient id="violet" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#863bff"/><stop offset="0.55" stop-color="#ba8aff"/><stop offset="1" stop-color="#eee1ff"/></linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d6b6ff" stop-opacity="0.65"/><stop offset="0.45" stop-color="#a65bff" stop-opacity="0.08"/><stop offset="1" stop-color="#a65bff" stop-opacity="0.4"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#9d4bff" stop-opacity="0.18"/><stop offset="1" stop-color="#9d4bff" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <circle cx="600" cy="320" r="300" fill="url(#halo)"/>
+  <g fill="none" stroke="#a67ade" stroke-width="1" opacity="0.09">
+    <path d="M120 160H1080M120 320H1080M120 480H1080M120 640H1080M280 100V700M440 100V700M600 100V700M760 100V700M920 100V700"/>
+  </g>
+  <g fill="none">
+    <ellipse cx="600" cy="310" rx="230" ry="172" transform="rotate(-23 600 310)" stroke="#b88af5" stroke-opacity="0.24" stroke-width="1.5"/>
+    <path d="M387 392Q410 467 522 478M774 173Q815 199 826 251" stroke="#d9bdff" stroke-width="3" stroke-linecap="round"/>
+    <rect x="450" y="160" width="300" height="300" rx="62" fill="#110c20" stroke="url(#rim)" stroke-width="1.5"/>
+    <path d="M478 239V221Q478 188 511 188H541M659 432H689Q722 432 722 399V381" stroke="#b67af8" stroke-opacity="0.36" stroke-width="1.5"/>
+  </g>
+  <g fill="#c8a2ff">
+    <circle cx="386" cy="392" r="6"/><circle cx="774" cy="173" r="6"/><circle cx="699" cy="465" r="5"/>
+  </g>
+  <g fill="none" stroke="#a66bff" stroke-opacity="0.25"><circle cx="386" cy="392" r="13"/><circle cx="774" cy="173" r="13"/></g>
+  <path d="M500 402V218H547L653 338V218H700V402H653L547 282V402Z" fill="url(#violet)"/>
+  <path d="M586 272L626 311H601L637 363L567 299H593Z" fill="#130d22"/>
+  <text x="610" y="586" text-anchor="middle" fill="#f4efff" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="20">NOSTR</text>
+  <path d="M555 626H645" stroke="#ad6bff" stroke-width="3" stroke-linecap="round"/>
+  <text x="602" y="669" text-anchor="middle" fill="#9c90af" font-family="Inter, Helvetica Neue, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="5">MANY RELAYS. NO CENTER.</text>
+</svg>
